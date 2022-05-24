@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -w /etc/ssh/sshd_config | find -type f
+grep (^[A-Z][a-z]) /etc/ssh/sshd_config | find type -f
