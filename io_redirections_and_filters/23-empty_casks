@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -depth -type f,d -empty -printf \n,%d
+find . -depth -type f,d -empty -printf %d,\n
