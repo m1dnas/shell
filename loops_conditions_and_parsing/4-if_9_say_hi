@@ -4,7 +4,7 @@
 i=0
 while [ $i -ne 11 ]
 do 
-	if [ $count -eq 9 ]
+	if [ $i -eq 9 ]
 	then	
 	echo "Hi"
 	else
