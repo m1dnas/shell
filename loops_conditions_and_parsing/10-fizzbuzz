@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# display numbers from 1 to 100 k
+
+n=0
+for (( n=1;n<101;n++ ))
+  do
+     if (( n % 3 == 0 )) && (( n % 5 == 0 )); 
+     then
+	echo "FizzBuzz"
+     
+     elif (( n % 3 == 0 )); 
+     then
+        echo "Fizz"
+	
+     elif (( n % 5 == 0 ))
+     then
+        echo "Buzz"
+	
+     else
+	echo $n
+
+    fi
+	     
+done
