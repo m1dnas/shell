@@ -2,7 +2,7 @@
 # Display Best School in all lines except for the 4th (bad luck) and 8th (good luck)
 
 i=0
-while [ $i -ne 10]
+while [ $i -ne 10 ]
 do
 	if [ $i -eq 3 ]
 	then
