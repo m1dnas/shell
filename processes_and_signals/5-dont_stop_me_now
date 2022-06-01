@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Stops the file "4-to_infinity_and_beyond" process
 
-kill name  4-to_infinity_and_beyond
+kill -s name  4-to_infinity_and_beyond
