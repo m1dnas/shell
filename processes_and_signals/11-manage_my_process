@@ -1,17 +1,18 @@
 #!/usr/bin/env bash
 # managing the process of manage_my_process
 
-if [ "$i" == start ]
+
+if [ "$1" == start ]
 then
 	./manage_my_process start
 	echo "ps" > /var/run/my_process.pid
 	echo "manage_my_process started"
-elif [ "$i" == stop ]
+elif [ "$1" == stop ]
 then
 	pkill -f ./manage_my_process
 	rm /var/run/my_process.pid
 	echo "manage_my_process stopped"	
-elif [ "$i" == restart ]
+elif [ "$1" == restart ]
 then
 	pkill -f ./manage_my_process
 	rm /var/run/my_process.pid
