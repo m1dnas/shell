@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # managing the process of manage_my_process
 
+echo "Usage: manage_my_process {start|stop|restart}"
 
 if [ "$1" == start ]
 then
